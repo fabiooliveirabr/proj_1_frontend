@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Sora';
+}
+
+#menu_topo{
+    background-image: linear-gradient(to right, #203FA4, #3C6EFF);
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#caixa_menu{
+    color: #FFFFFF;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+.botao_amarelo{
+    font-weight: 600; /*deixar o texto mais destacado em negrito*/
+    background-color: #FFFC00;
+    color: #000000;
+    padding: 15px;
+    border-radius: 70px;
+    width: fit-content; /* ajustar a largura automaticamente pelo conteúdo */
+}
+
+.menus{
+    /* border: 1px solid red; */
+    align-items: center;
+    display: flex;
+}
+#banner{
+    height: 600px;
+    background-image: url('imagens/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -3px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end; /*Alinhar no lado direito*/
+    padding-right: 150px;
+}
+#conteudo_banner{
+    width: 500px;
+    color: #FFFFFF;
+}
+#conteudo_banner h1{
+    font-size: 50px;
+}
+#conteudo_banner p{
+    font-size: 25px;
+}
+.amarelo{
+    color: #FFFC00;
+}
