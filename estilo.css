@@ -59,3 +59,86 @@ body{
 .amarelo{
     color: #FFFC00;
 }
+
+.menus:hover{
+    color: #FFFC00;
+    cursor: pointer;
+}
+.botao_amarelo:hover{
+    background-color:  #ebbc03;
+    cursor: pointer;
+    scale: 1.2;
+    transition: all 0.5s;
+}
+#secao2{
+    /* border: 1px solid red; */
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+#conteudo_esquerdo{
+    /* border: 1px solid red; */
+    width: 20%;
+}
+#conteudo_direito{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.azul{
+    color: #203FA4;
+}
+#conteudo_esquerdo h1{
+    font-size: 50px;
+}
+#conteudo_esquerdo p{
+    font-size: 20px;
+}
+
+.cartoes{
+    background-color: #DDDDDD; 
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;     /* cantos arredondados*/
+    align-items: center;     /*centralizar verticalmente*/
+    justify-content: center; /* centralizar horizontalmente*/
+    display: flex;           /*objetos lado a lado*/
+    flex-direction: column;  /*organizar em colunas*/
+    text-align: center;      /*texto centralizado*/
+    font-weight: 700;        /*espessura do texto*/
+    padding: 15px;          /*espaçamento interno*/
+    margin-bottom: 40px;    /*distância  na parte de baixo*/
+}
+
+#secao3{
+    height: 800px;
+    background-image: url('imagens/fundo.png');
+    background-size: cover;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.planos{
+    height: 450px;
+}
+#secao3 h1{
+    font-size: 65px;
+    width: 50%;
+}
+
+#botao_depoimentos{
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #203FA4,  #3C6EFF );
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 10px;
+}
